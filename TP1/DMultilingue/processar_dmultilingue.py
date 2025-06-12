@@ -159,7 +159,7 @@ def adicionar_multilingue(glossario_existente):
 # Carregar o JSON existente
 try:
     with open('../GlossarioMini/glossario_final_atualizado.json', 'r', encoding='utf-8') as f:
-        glossario_final = json.load(f)
+        glossario_final = json.load(f) #
 except FileNotFoundError:
     print("Erro: Arquivo glossario_final_atualizado.json não encontrado")
     exit()
